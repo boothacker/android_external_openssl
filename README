@@ -1,0 +1,4 @@
+cd external/openssl
+git remote add master https://github.com/boothacker/android_external_openssl
+git fetch master 
+git cherry-pick 7a055304ca0e424fc48eaad6d03f52bbab25bc88
